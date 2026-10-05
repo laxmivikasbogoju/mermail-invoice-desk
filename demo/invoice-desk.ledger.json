@@ -1,0 +1,25 @@
+{
+  "desk": {
+    "mailbox": "<YOUR_AGENT_MAILBOX>@<workspace>.mermail.app",
+    "defaultChain": "solana",
+    "defaultAsset": "USDC",
+    "runCap": "5.00"
+  },
+  "vendors": [
+    {
+      "id": "pixelforge",
+      "name": "Pixel Forge Studio",
+      "senderDomains": [],
+      "senderAddresses": ["<VENDOR_SENDER_EMAIL_A>"],
+      "remittanceEmail": "<VENDOR_SENDER_EMAIL_A>",
+      "payout": {
+        "chain": "solana",
+        "asset": "USDC",
+        "address": "<YOUR_SECOND_SOLANA_WALLET_ADDRESS>"
+      },
+      "maxPerInvoice": "3.00",
+      "verifiedBy": "owner-controlled demo wallet",
+      "status": "active"
+    }
+  ]
+}
